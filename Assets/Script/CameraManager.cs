@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class Input : MonoBehaviour
 {
     [Header("User actions")]
+    // todo : add input action
     [SerializeField] private InputActionReference moveCameraAction;
 
     [Header("Camera settings")]
@@ -29,6 +30,7 @@ public class Input : MonoBehaviour
 
     private void OnDisable()
     {
+        // to fix : null pointer exception  
         moveCameraAction.action.performed -= OnMoveCamera;
         moveCameraAction.action.canceled -= context => direction = Vector3.zero;
         moveCameraAction.action.Disable();
