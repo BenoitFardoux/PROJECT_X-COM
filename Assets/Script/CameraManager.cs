@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Input : MonoBehaviour
+public class CameraManager : MonoBehaviour
 {
     [Header("User actions")]
     // todo : add input action

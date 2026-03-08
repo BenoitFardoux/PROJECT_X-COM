@@ -588,7 +588,6 @@ GameObject:
   - component: {fileID: 1683970320}
   - component: {fileID: 1683970319}
   - component: {fileID: 1683970318}
-  - component: {fileID: 1683970317}
   - component: {fileID: 1683970321}
   m_Layer: 0
   m_Name: EventSystem
@@ -597,21 +596,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1683970317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683970316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 601d3716cb03a814db9fc081c0fca3eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Input
-  moveCameraAction: {fileID: 6066862245276561846, guid: e29f09ef3dd27c040b487134877fcbe0, type: 3}
-  moveSpeed: 5
-  mainCamera: {fileID: 330585545}
 --- !u!114 &1683970318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,9 +731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 601d3716cb03a814db9fc081c0fca3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Input
-  moveCameraAction: {fileID: 0}
+  moveCameraAction: {fileID: 6066862245276561846, guid: e29f09ef3dd27c040b487134877fcbe0, type: 3}
   moveSpeed: 5
-  mainCamera: {fileID: 0}
+  mainCamera: {fileID: 330585545}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
